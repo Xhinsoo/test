@@ -1,0 +1,37 @@
+body {
+  background-color: aliceblue;
+  box-sizing: border-box;
+  font-size: 12;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.navBar {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.menuItems {
+  display: none;
+  margin-top: 0;
+  border: 1px solid green;
+  flex-direction: column;
+  align-items: flex-end;
+  font: 1em;
+  padding: 0.2em;
+}
+
+.displayMenu {
+  display: block;
+}
+
+.content {
+  border: 1px solid;
+}

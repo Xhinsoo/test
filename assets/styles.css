@@ -22,8 +22,7 @@ ul{
   display: none;
   margin-top: 0;
   border: 1px solid green;
-  flex-direction: column;
-  align-items: flex-end;
+  text-align: right;
   font: 1em;
   padding: 0.2em;
 }
